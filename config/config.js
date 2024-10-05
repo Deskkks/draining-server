@@ -1,9 +1,9 @@
 module.exports = {
   development: {
-    user: 'root',
-    password: null,
+    user: 'draining',
+    password: "draining",
     name: "draining",
-    host: "localhost",
+    host: "85.10.205.173",
     dialect: "mysql"
   }
 }

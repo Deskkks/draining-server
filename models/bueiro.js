@@ -13,7 +13,7 @@ const bueiroModel = sequelize.define('bueiros', {
   cidade: Sequelize.STRING(30),
   UF: Sequelize.STRING(2),
   cep: Sequelize.STRING(9),
-  situação: Sequelize.ENUM('vazio','medio','cheio','em limpeza')
+  situacao: Sequelize.ENUM('vazio','medio','cheio','em limpeza')
 });
 
 module.exports = bueiroModel
